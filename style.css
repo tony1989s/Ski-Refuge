@@ -1,0 +1,208 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+    left: 0;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    overflow-y: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    color: #736b92;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #2176ff;
+}
+
+.nav-link:hover {
+    background-color: #2176ff;
+    color: white;
+    border-radius: 10px;
+}
+
+a.logo {
+    color: #2176ff;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 34px;
+    padding: 0px 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+
+
+.banner {
+    background-image: url('https://media.cntraveler.com/photos/5a009c8e25be133d871c008e/16:9/w_2560%2Cc_limit/Mountain-Travel_GettyImages-503689316.jpg');
+    height: 700px;
+    background-size: cover;
+    background-position: center top;
+    border-bottom: #dddddd;
+    position: relative;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 100px 0;
+}
+
+.banner-text {
+    position: relative;
+    top: 200px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif ;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.banner h2 {
+    font-size: 120px;
+    margin: -40px 0px 80px 0px;
+}
+
+h2 {
+    color: #2176ff;
+    font-family: 'Amatic SC', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.content {
+    background-image: url('https://plus.unsplash.com/premium_photo-1674331229629-3d33a5af0711?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZnJlZSUyMGltYWdlcyUyMG1vdW50YWlufGVufDB8fDB8fHww');
+    height: 700px;
+    background-size: cover;
+    background-position: center top;
+    overflow: auto;
+    padding: 80px 0px;
+    position: relative;
+    border-bottom: 1px solid #5e5e5e;
+    border-top: 2px solid #5e5e5e;
+    text-align: center;
+}
+
+.description {
+    display: inline-block;
+    width: 70%;
+}
+
+p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: left;
+}
+
+.activities-panel {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.activities-panel h2 {
+    width: 100%;
+}
+
+.activity {
+    background-color: #2176ff;
+    box-sizing: border-box;
+    width: 240px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Amatic SC', sans-serif;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.activity:hover {
+    font-size: 40px;
+    background-color: #97c9f1;
+    color: #000000;
+    width: 300px;
+    height: 250px;
+}
+
+.footer {
+    background-color: #2176ff;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.btn {
+    border: 1px solid #0c92fd;
+    background-color: #2176ff;
+    display: inline-block;
+    width: 155px;
+    padding: 15px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 600;
+    border-radius: 16px;
+    box-shadow: 0px 4px #e3e7be;
+}
+
+.btn:active {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    background-color: #97c9f1;
+    box-shadow: 0px 0px;
+    color: #000000;
+}
+
+.btn:hover {
+    font-size: 25px;
+    color: #000000;
+}
